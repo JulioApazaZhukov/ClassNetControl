@@ -1,0 +1,8 @@
+[
+{
+  "directory": "E:/ClassNetControl/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/ClassNetControl.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ClassNetControl.dir\\src\\main.cpp.obj -c E:\\ClassNetControl\\src\\main.cpp",
+  "file": "E:/ClassNetControl/src/main.cpp",
+  "output": "CMakeFiles/ClassNetControl.dir/src/main.cpp.obj"
+}
+]
