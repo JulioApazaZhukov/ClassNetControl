@@ -1,0 +1,15 @@
+<Window x:Class="ClassNetControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ClassNetControl" Height="400" Width="600">
+    <Grid>
+        <TextBlock Text="Sitios Permitidos" FontSize="18" HorizontalAlignment="Center" Margin="10"/>
+        <ListBox x:Name="allowedSitesList" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10,40,10,10"/>
+        
+        <TextBox x:Name="newSiteTextBox" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Margin="10,0,10,40" Height="30"/>
+        <Button Content="Agregar Sitio" HorizontalAlignment="Left" VerticalAlignment="Bottom" Width="120" Height="30" Margin="10,0,0,0" Click="OnAddSiteClick"/>
+        <Button Content="Eliminar Sitio" HorizontalAlignment="Right" VerticalAlignment="Bottom" Width="120" Height="30" Margin="0,0,10,0" Click="OnRemoveSiteClick"/>
+        
+        <Button Content="Iniciar Filtrado" HorizontalAlignment="Center" VerticalAlignment="Bottom" Width="200" Height="40" Margin="0,0,0,0" Click="OnStartFilteringClick"/>
+    </Grid>
+</Window>

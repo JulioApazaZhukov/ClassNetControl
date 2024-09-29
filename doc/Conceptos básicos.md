@@ -1,0 +1,5 @@
+El **DNS** (Sistema de Nombres de Dominio, por sus siglas en inglés: *Domain Name System*) es como la agenda telefónica de Internet. En lugar de memorizar largas secuencias de números llamados direcciones IP (que identifican dispositivos en una red), el DNS traduce esos números en nombres fáciles de recordar, como "google.com" o "youtube.com".
+
+Imagina que cada sitio web tiene su "número de teléfono" en forma de dirección IP. Cuando escribes un nombre de dominio (como "example.com") en el navegador, el DNS se encarga de encontrar la dirección IP asociada a ese nombre para conectarte con el sitio correcto. Sin el DNS, tendrías que recordar direcciones IP como "142.250.68.14" para visitar Google, lo cual sería un verdadero dolor de cabeza.
+
+En resumen, el DNS actúa como un traductor que convierte los nombres de dominio que usas todos los días en direcciones IP que las computadoras pueden entender, facilitando el acceso a los sitios web de manera rápida y eficiente.
